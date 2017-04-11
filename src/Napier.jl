@@ -1,3 +1,5 @@
+__precompile__()
+
 module Napier
 
 export loge, logn, ln
