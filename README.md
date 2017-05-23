@@ -7,18 +7,39 @@ This module is based on https://github.com/thinkphp/napier.
 
 ## Installation
 
-`julia> Pkg.clone("https://github.com/moisespsena/Napier.jl.git")`
+```julia
+julia> Pkg.add("Napier")
+```
 
+or
 
-## Usage
-
-`using Napier`
-
+```julia
+julia> Pkg.clone("https://github.com/moisespsena/Napier.jl.git")
+```
 
 ## Functions
 
 - `Napier.loge(n::Real, li::Real, ls::Real)`
 - `Napier.logn(n::Real)` or `Napier.ln(n::Real)`
+
+
+## Usage
+
+```julia
+julia> using Napier
+
+julia> ln(123)
+4.812184285372496
+
+julia> ln
+logn (generic function with 1 method)
+
+julia> ln == logn
+true
+
+julia> loge
+loge (generic function with 1 method)
+```
 
 
 # About
